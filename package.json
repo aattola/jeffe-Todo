@@ -1,10 +1,11 @@
 {
-  "name": "electron-quick-start",
+  "name": "jeff",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "jeffe Todo For Shit",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "build ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -14,9 +15,37 @@
     "tutorial",
     "demo"
   ],
+  "build": {
+    "icon": "./assets/favicon.ico",
+    "appId": "com.jeffe.todo",
+    "productName": "jeffe Todo",
+    "copyright": "Copyright © 2018 jeffe"
+  },
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^1.8.4"
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "electron-packager": "^11.2.0",
+    "electron-prebuilt": "^0.28.3",
+    "electron-winstaller": "^2.6.4",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "electron-build": "^0.0.3",
+    "material-ui": "^1.0.0-beta.39",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
   }
 }

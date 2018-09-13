@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>jeffe Todo</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="swal.js"></script>
+    <script src="jquery.js"></script>
+    <script>!function(e,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.exports=t:e.vault=t()}(this,function(){"use strict";var e=window.localStorage;return{set:function(t,n){t&&void 0!==n&&(e[t]=JSON.stringify(n))},get:function(t){var n=e[t];return void 0!==n?JSON.parse(n):void 0},remove:function(t){e.hasOwnProperty(t)&&delete e[t]},empty:function(){e.clear()}}});</script>
+    <style>
+        @font-face {
+      font-family: "Google Sans";
+      src: url("./GoogleSans-Bold.woff") format("woff"),
+          url("./GoogleSans-Bold.woff2") format("woff2");
+      font-weight: bold;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: "Google Sans Normal";
+      src: url("./GoogleSans-Bold.woff") format("woff"),
+          url("./GoogleSans-Bold.woff2") format("woff2");
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    #title {
+      font-family: "Google Sans" !important;
+      font-size: 20px;
+    }
+
+    .titleNappi {
+      -webkit-app-region: no-drag;
+    }
+
+    .appBar {
+      -webkit-app-region: drag;
+    }
+
+    .centered {
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #ccc;
+    }
+    
+    html, body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      user-select: none;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="🤔"></div>
+    <script> window.eRequire = require</script>
+    <script src="bundle.js"></script>
+  </body>
+</html>
